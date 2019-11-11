@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PhilHealth POC</string>
+
+    <!-- Base URLs -->
+    <!-- Element Face -->
+    <string name="face_base_url">https://id-fm.discoverelement.com:9443/</string>
+    <string name="face_matching_endpoint">api/faceMatching</string>
+    <string name="face_enroll_endpoint">api/enroll</string>
+    <string name="api_key">IlHs026c8nhuFVFYuJtyL2l1s2M5zT9W6C65pXkrgMFpeSoMoAJ0WTB1xVwY9HHE</string>
+
+
+    <!-- HINTS -->
+    <string name="register_hint"> Register </string>
+    <string name="match_hint">Match</string>
+
+</resources>

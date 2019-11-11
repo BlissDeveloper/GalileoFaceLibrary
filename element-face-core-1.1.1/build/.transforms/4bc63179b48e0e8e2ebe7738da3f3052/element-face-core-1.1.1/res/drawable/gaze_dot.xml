@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="@color/gaze_color" />
+
+    <size
+        android:height="@dimen/gaze_dot_size"
+        android:width="@dimen/gaze_dot_size" />
+
+</shape>

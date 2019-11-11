@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/upper_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp" />
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/positive_action"
+        style="@style/ElementButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Let\'s do it!" />
+
+    <Button
+        android:id="@+id/negative_action"
+        style="@style/ElementTextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="No, thanks." />
+
+</LinearLayout>

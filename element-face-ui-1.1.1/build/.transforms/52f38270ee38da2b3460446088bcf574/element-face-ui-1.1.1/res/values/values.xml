@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="actionBarBg">@color/colorPrimary</color>
+    <color name="appBackground">#FFFFFF</color>
+    <color name="colorAccent">#4aa7f8</color>
+    <color name="colorPrimary">#3851d9</color>
+    <color name="colorPrimaryDark">#354ccd</color>
+    <color name="elementFaceUiCheckmarkButton">@color/elementFaceUiOutlineDetectedColor</color>
+    <color name="elementFaceUiFlowerPetal">#80FFFFFF</color>
+    <color name="elementFaceUiOutlineDetectedColor">#FF00A8FF</color>
+    <color name="elementFaceUiOutlineErrorColor">#FFE00C0C</color>
+    <color name="elementFaceUiOutlineNormalColor">#FFB2B2B2</color>
+    <color name="elementFaceUiRingColor">#FFFFFF</color>
+    <color name="elementFaceUiStencilBgColor">#aa000000</color>
+    <color name="negativeButtonColor">#e15241</color>
+    <color name="statusBarColor">@color/colorPrimaryDark</color>
+    <color name="textColor">#4a4a4a</color>
+    <color name="titleTextColor">#FFFFFF</color>
+    <declare-styleable name="FaceStencilView">
+        <attr format="color" name="outlineColorNormal"/>
+        <attr format="color" name="outlineColorError"/>
+        <attr format="color" name="outlineColorDetected"/>
+        <attr format="color" name="stencilBackground"/>
+        <attr format="reference" name="completionIcon"/>
+    </declare-styleable>
+    <declare-styleable name="IconTextView">
+        <attr format="reference" name="iconRes"/>
+        <attr format="string" name="text"/>
+        <attr format="dimension" name="textSize"/>
+    </declare-styleable>
+    <dimen name="checkmark_button_size">70dp</dimen>
+    <dimen name="dialog_checkmark_size">50dp</dimen>
+    <dimen name="dialog_icon_height">100dp</dimen>
+    <dimen name="dialog_icon_large_height">133dp</dimen>
+    <dimen name="dialog_icon_large_width">100dp</dimen>
+    <dimen name="dialog_icon_text_large">24sp</dimen>
+    <dimen name="dialog_icon_width">70dp</dimen>
+    <dimen name="flower_petal_max_size">50dp</dimen>
+    <dimen name="flower_petal_min_size">5dp</dimen>
+    <dimen name="pie_view_size">70dp</dimen>
+    <dimen name="pie_view_stroke_width">6dp</dimen>
+    <dimen name="ring_size">80dp</dimen>
+    <dimen name="ring_stroke_width">10dp</dimen>
+    <drawable name="elementFaceUiOutlineCompletionMarker">@drawable/ic_check</drawable>
+    <integer name="elementFaceUiGazeFlowerAnimDurMs">1000</integer>
+    <integer name="elementFaceUiGazeLoaderAnimDurMs">2000</integer>
+    <integer name="elementFaceUiOutlineAnimDurMs">1800</integer>
+    <string name="app_name">Base UI</string>
+    <string name="button_ok">OK</string>
+    <string name="center_face">Center face in frame</string>
+    <string name="clear_face_view">Make sure we have a clear view of your face</string>
+    <string name="consent_given">I Agree</string>
+    <string name="consent_html"><![CDATA[<b>CONSENT, GENERAL RELEASE AND WAIVER OF LIABILITY</b><br><br>
+I do hereby freely, voluntarily and without duress consent to the use of my photographic image
+by Element Inc. in the development and implementation of a biometric solution for the
+healthcare information technology solutions and for any other connected purpose whatsoever.
+Accordingly I hereby authorize, release and forever discharge Element Inc., its agents,
+employees, successors, assigns and respective affiliates and partners, from any and all claims,
+demands, damages, actions, causes of action or suits of any kind or nature whatsoever, arising
+out of or in any way relating to the use of my photographic image aforesaid.]]>
+    </string>
+    <string name="consent_refused">I Do Not Agree</string>
+    <string name="consent_screen_title">Data Consent Policy</string>
+    <string name="eyes_only">Move eyes only</string>
+    <string name="got_it">Got It</string>
+    <string name="hold_phone_eye_level">Hold phone at eye level</string>
+    <string name="how_to">How to…</string>
+    <string name="keep_centered">Keep face centered</string>
+    <string name="keep_steady">Keep Steady</string>
+    <string name="lets_go">Let\'s Go</string>
+    <string name="low_light">Low Light</string>
+    <string name="move">Move</string>
+    <string name="move_back">Move Back</string>
+    <string name="move_closer">Move Closer</string>
+    <string name="move_message">In order to complete your transfer, you\'ll be prompted to move your eyes to make sure it\'s you.</string>
+    <string name="ready">Ready</string>
+    <string name="scan">Scan</string>
+    <string name="selfie">Selfie</string>
+    <string name="selfie_message">You\'ll be asked to frame your face then we\'ll snap a selfie.</string>
+    <string name="selfie_move_message">We\'ll automatically take a selfie then you\'ll be prompted to move your eyes to make sure it\'s you.</string>
+    <string name="tilt_back">Tilt Back</string>
+    <string name="tilt_forward">Tile Forward</string>
+    <string name="tilt_left">Tilt Left</string>
+    <string name="tilt_right">Tilt Right</string>
+    <string name="too_much_glare">Too Much Glare</string>
+    <string name="watch_circles">Watch the circles</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/appBackground</item>
+        <item name="toolbarStyle">@style/e5tToolbarStyle</item>
+        <item name="actionBarStyle">@style/e5tActionBarStyle</item>
+        <item name="colorControlNormal">@color/titleTextColor</item>
+        <item name="homeAsUpIndicator">@drawable/ic_toolbar_back_dark</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+    </style>
+    <style name="AppTheme.DarkActionBar">
+        <item name="actionBarStyle">@style/e5tActionBarStyle.DarkActionBar</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="homeAsUpIndicator">@drawable/ic_toolbar_back_tint</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="DialogNoAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="ElementButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/element_round_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">0dp</item>
+        <!--<item name="android:stateListAnimator">@null</item>-->
+    </style>
+    <style name="ElementTextButton" parent="@style/ElementButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColor</item>
+
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="WindowAnimationTransition">
+        <!--<item name="android:windowEnterAnimation">@anim/fade_in</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/fade_out</item>-->
+
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="e5tActionBarStyle" parent="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/e5tToolbarTitleAppearance</item>
+        <item name="subtitleTextStyle">@style/e5tToolbarSubtitleAppearance</item>
+        <item name="background">@color/actionBarBg</item>
+    </style>
+    <style name="e5tActionBarStyle.DarkActionBar">
+        <item name="titleTextStyle">@style/e5tToolbarTitleAppearance.DarkActionBar</item>
+        <item name="subtitleTextStyle">@style/e5tToolbarSubtitleAppearance.DarkActionBar</item>
+        <item name="background">@android:color/black</item>
+    </style>
+    <style name="e5tToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/e5tToolbarTitleAppearance</item>
+        <item name="subtitleTextAppearance">@style/e5tToolbarSubtitleAppearance</item>
+    </style>
+    <style name="e5tToolbarSubtitleAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@color/titleTextColor</item>
+        <item name="android:textColorSecondary">@color/titleTextColor</item>
+    </style>
+    <style name="e5tToolbarSubtitleAppearance.DarkActionBar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+    <style name="e5tToolbarTitleAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/titleTextColor</item>
+        <item name="android:textColorSecondary">@color/titleTextColor</item>
+    </style>
+    <style name="e5tToolbarTitleAppearance.DarkActionBar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+color elementFaceUiCheckmarkButton
+color elementFaceUiFlowerPetal
+integer elementFaceUiGazeFlowerAnimDurMs
+integer elementFaceUiGazeLoaderAnimDurMs
+integer elementFaceUiOutlineAnimDurMs
+drawable elementFaceUiOutlineCompletionMarker
+color elementFaceUiOutlineDetectedColor
+color elementFaceUiOutlineErrorColor
+color elementFaceUiOutlineNormalColor
+color elementFaceUiRingColor
+color elementFaceUiStencilBgColor

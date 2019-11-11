@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gaze_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/gaze_curtain"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <TextView
+        android:id="@+id/cornerTL"
+        style="@style/gaze_corner"
+        android:paddingTop="@dimen/gaze_corner_text_padding_vertical"
+        android:paddingStart="@dimen/gaze_corner_text_padding_horizontal"
+        android:gravity="top|start"
+        android:background="@drawable/gaze_corner_tl" />
+
+    <TextView
+        android:id="@+id/cornerTR"
+        style="@style/gaze_corner"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="@dimen/gaze_corner_text_padding_vertical"
+        android:paddingEnd="@dimen/gaze_corner_text_padding_horizontal"
+        android:gravity="top|end"
+        android:background="@drawable/gaze_corner_tr" />
+
+    <TextView
+        android:id="@+id/cornerBL"
+        style="@style/gaze_corner"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/gaze_corner_text_padding_vertical"
+        android:paddingStart="@dimen/gaze_corner_text_padding_horizontal"
+        android:gravity="bottom|start"
+        android:background="@drawable/gaze_corner_bl" />
+
+    <TextView
+        android:id="@+id/cornerBR"
+        style="@style/gaze_corner"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/gaze_corner_text_padding_vertical"
+        android:paddingEnd="@dimen/gaze_corner_text_padding_horizontal"
+        android:gravity="bottom|end"
+        android:background="@drawable/gaze_corner_br" />
+
+</RelativeLayout>

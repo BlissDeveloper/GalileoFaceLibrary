@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <com.element.common.ui.IconTextView
+        android:id="@+id/selfie_icon"
+        android:layout_width="@dimen/dialog_icon_large_width"
+        android:layout_height="@dimen/dialog_icon_large_height"
+        app:text="@string/selfie"
+        app:textSize="@dimen/dialog_icon_text_large"/>
+
+    <TextView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dialog_icon_large_height"
+        android:text="+"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="30sp"
+        android:paddingTop="70dp"
+        android:gravity="bottom"
+        android:layout_toEndOf="@id/selfie_icon"/>
+
+    <com.element.common.ui.IconTextView
+        android:id="@+id/move_icon"
+        android:layout_width="@dimen/dialog_icon_large_width"
+        android:layout_height="@dimen/dialog_icon_large_height"
+        app:text="@string/move"
+        app:textSize="@dimen/dialog_icon_text_large"
+        android:layout_toEndOf="@id/plus"/>
+</RelativeLayout>

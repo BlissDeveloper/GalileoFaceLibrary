@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/selfie_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.element.common.ui.IconTextView
+                android:layout_width="@dimen/dialog_icon_width"
+                android:layout_height="@dimen/dialog_icon_height"
+                android:layout_centerInParent="true"
+                android:foreground="#CCFFFFFF"
+                app:iconRes="@drawable/ic_selfie"
+                app:text="@string/selfie" />
+
+            <ImageView
+                android:id="@+id/check_selfie"
+                android:layout_width="@dimen/dialog_checkmark_size"
+                android:layout_height="@dimen/dialog_checkmark_size"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_check"
+                android:translationY="14dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/move_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.element.common.ui.IconTextView
+                android:layout_width="@dimen/dialog_icon_width"
+                android:layout_height="@dimen/dialog_icon_height"
+                android:layout_centerInParent="true"
+                android:foreground="#CCFFFFFF"
+                app:iconRes="@drawable/ic_move"
+                app:text="@string/move" />
+
+            <ImageView
+                android:id="@+id/check_scan"
+                android:layout_width="@dimen/dialog_checkmark_size"
+                android:layout_height="@dimen/dialog_checkmark_size"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_check"
+                android:translationY="14dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

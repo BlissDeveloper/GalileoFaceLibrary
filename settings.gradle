@@ -1,0 +1,2 @@
+include ':app', ':element-face-cam-1.1.1', ':element-face-core-1.1.1', ':element-face-support-1.1.1', ':element-face-ui-1.1.1'
+rootProject.name='GalileoFaceLibrary'

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="markForDeletionEnabled">false</bool>
+    <color name="gaze_color">#009acd</color>
+    <color name="gaze_view_text_color">@android:color/white</color>
+    <dimen name="gaze_corner_size">160dp</dimen>
+    <dimen name="gaze_corner_text_padding_horizontal">15sp</dimen>
+    <dimen name="gaze_corner_text_padding_vertical">10sp</dimen>
+    <dimen name="gaze_corner_text_size">80sp</dimen>
+    <dimen name="gaze_dot_size">70dp</dimen>
+    <dimen name="gaze_dot_top_offset">100dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <item name="coordinate_x" type="id"/>
+    <item name="coordinate_y" type="id"/>
+    <integer name="dist_far_interval">500</integer>
+    <integer name="dist_start_offset">250</integer>
+    <integer name="gaze_move_interval">300</integer>
+    <integer name="gaze_pulse_count">5</integer>
+    <integer name="gaze_pulse_interval">180</integer>
+    <integer name="gaze_tick">3</integer>
+    <integer name="gaze_tick_interval">500</integer>
+    <string name="app_name">@string/element</string>
+    <string name="button_no">No</string>
+    <string name="button_ok">OK</string>
+    <string name="button_yes">Yes</string>
+    <string name="email">Email</string>
+    <string name="error_connectServer">Unable to connect to the server - Please try again</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_empty_tag">Empty note…</string>
+    <string name="error_error_creating_tag">Unable to create the note - please try again later…</string>
+    <string name="error_invalidEmail">Please provide an valid email account</string>
+    <string name="error_mismatchPin">Please confirm your pin</string>
+    <string name="error_missingEmail">Email is missing</string>
+    <string name="error_missingPin">Pin is missing</string>
+    <string name="error_no_network">Network is not available - Please check your network connections</string>
+    <string name="error_recoverModel">Unable to sign in, %1$s</string>
+    <string name="error_shortPin">Pin is too short</string>
+    <string name="error_signInFirst">Please sign in first</string>
+    <string name="error_signUp">Unable to sign up: %1$s</string>
+    <string name="error_taking_photo">Taking photo failed</string>
+    <string name="error_user_model">Failed to load your account</string>
+    <string name="invalid_user_id">User not found - Please check userId</string>
+    <string name="msg_abort_enrollment">Do you really want to cancel account creation?</string>
+    <string name="msg_bringHandCloser">Bring hand closer</string>
+    <string name="msg_diskSpaceLow">Disk space low: Please clean up your device for optimal performance</string>
+    <string name="msg_grantPermissions">Please grant all permissions</string>
+    <string name="msg_holdHand">Match hand to outline</string>
+    <string name="msg_startedEnrollment">Please continue creating your account</string>
+    <string name="msg_steadyHand">Keep hand steady</string>
+    <string name="msg_userDeleted">The account deleted</string>
+    <string name="pin">4-Digit Pin</string>
+    <string name="signIn">LOG IN</string>
+    <string name="signUp">Enroll</string>
+    <string name="tapNext">Tap here to continue</string>
+    <string name="uForgotPin"><u>FORGOT PIN?</u></string>
+    <string name="unauthorized_application">Unauthorized use of Element SDK - Please contact Element Inc. for more information.</string>
+    <string name="unsupported_api">Unsupported usage of Element SDK - Please contact Element Inc. for more information.</string>
+    <string name="unsupported_modality">Unsupported modality - Please contact Element Inc. for more information.</string>
+    <string name="user_enrolled">The user has enrolled</string>
+    <string name="user_feature_version_mismatched">User feature version mismatched - Please enroll again</string>
+    <string name="user_not_enrolled">Please enroll the user first</string>
+    <string name="user_not_found">User not found - Please enroll the user first.</string>
+    <style name="Buttons">
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:capitalize">characters</item>
+    </style>
+    <style name="CamTheme.Blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CamTheme.Blue.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="CamTheme.Dialog" parent="Theme.AppCompat.Dialog">
+    </style>
+    <style name="CamTheme.Full.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+    <style name="MyAlertDialog" parent="Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="WhiteTextButton" parent="TextButton">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+    <style name="gaze_corner">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">@dimen/gaze_corner_size</item>
+        <item name="android:layout_height">@dimen/gaze_corner_size</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+        <item name="android:textSize">@dimen/gaze_corner_text_size</item>
+        <item name="android:textColor">@color/gaze_view_text_color</item>
+    </style>
+</resources>

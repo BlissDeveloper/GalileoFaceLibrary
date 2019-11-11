@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_checkmark_size">54dp</dimen>
+    <dimen name="dialog_icon_height">115dp</dimen>
+    <dimen name="dialog_icon_large_height">160dp</dimen>
+    <dimen name="dialog_icon_large_width">120dp</dimen>
+    <dimen name="dialog_icon_text_large">28sp</dimen>
+    <dimen name="dialog_icon_width">80dp</dimen>
+</resources>

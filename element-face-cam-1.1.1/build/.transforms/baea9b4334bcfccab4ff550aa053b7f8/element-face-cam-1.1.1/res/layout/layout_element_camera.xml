@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="false"
+    android:id="@+id/cameraContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/camera_bg" >
+
+    <FrameLayout
+        android:id="@+id/previewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:id="@+id/curtain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black" />
+    
+    <TextView
+        style="@style/AnnouncementCenterText"
+        android:id="@+id/stencilText"    
+        android:layout_margin="50dp"
+        android:padding="4dp"
+        android:alpha="0.7"
+        android:textSize="24sp"
+        android:text="@string/element"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/debugRect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/preview_rect"
+        android:visibility="gone" />
+
+</RelativeLayout>

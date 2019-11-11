@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/faceStencil"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/element"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face_stencil" />
+
+    <ImageView
+        android:id="@+id/faceGradient"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/element"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face_gradient"
+        android:alpha="1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/faceGapStuffing"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/element"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face_gradient"
+        android:alpha="1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/faceGapStuffing2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/element"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face_gradient"
+        android:alpha="0.8"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/faceGapStuffing3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.8"
+        android:contentDescription="@string/element"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face_gradient"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/faceGapStuffing4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.8"
+        android:contentDescription="@string/element"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face_gradient"
+        android:visibility="invisible" />
+
+    <TextView
+        style="@style/AnnouncementText"
+        android:id="@+id/stencilText2"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="150dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:text="@string/element"
+        android:textColor="@color/darkText"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.element.checkLoader.CheckmarkLoaderView
+        android:id="@+id/gazeDotTL"
+        tools:ignore="RtlHardcoded"
+        android:layout_gravity="top|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="-30dp"
+        android:visibility="invisible"/>
+
+    <com.element.checkLoader.CheckmarkLoaderView
+        android:id="@+id/gazeDotTR"
+        tools:ignore="RtlHardcoded"
+        android:layout_gravity="top|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-30dp"
+        android:layout_marginTop="-30dp"
+        android:visibility="invisible"/>
+
+    <com.element.checkLoader.CheckmarkLoaderView
+        android:id="@+id/gazeDotBL"
+        tools:ignore="RtlHardcoded"
+        android:layout_gravity="bottom|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginBottom="-30dp"
+        android:visibility="invisible"/>
+
+    <com.element.checkLoader.CheckmarkLoaderView
+        android:id="@+id/gazeDotBR"
+        tools:ignore="RtlHardcoded"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-30dp"
+        android:layout_marginBottom="-30dp"
+        android:visibility="invisible"/>
+</FrameLayout>

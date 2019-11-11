@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="gone"
+    android:id="@+id/rangeRingContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="1600dp"
+        android:layout_height="1600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:scaleX="1.41"
+        android:scaleY="1.66"
+        android:max="1"
+        android:progress="1"
+        android:progressDrawable="@drawable/ring_bg"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/rangeRing"
+        android:layout_width="1600dp"
+        android:layout_height="1600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:scaleX="1.41"
+        android:scaleY="1.66"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/ring_green"/>
+
+</RelativeLayout>

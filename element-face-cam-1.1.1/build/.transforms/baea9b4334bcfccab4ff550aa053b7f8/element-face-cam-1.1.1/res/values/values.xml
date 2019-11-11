@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="box_bg">#11000000</color>
+    <color name="box_border">#20222222</color>
+    <color name="camera_bg">#000000</color>
+    <color name="colorAccent">#4aa7f8</color>
+    <color name="colorPrimary">#3851d9</color>
+    <color name="colorPrimaryDark">#354ccd</color>
+    <color name="darkText">#555</color>
+    <color name="div">#bfbfbf</color>
+    <color name="progress_ring">#993452e1</color>
+    <color name="progress_ring_bg">#77ffffff</color>
+    <color name="themeBlue">@color/colorPrimary</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <item name="my_toolbar" type="id"/>
+    <string name="element">Element</string>
+    <string name="forcedLanguage"/>
+    <string name="msg_gaze_failed">Please follow the dot</string>
+    <string name="msg_gaze_follow_dot">Follow the dot</string>
+    <string name="msg_hold_face">Keep your eyes open\nHold face steady</string>
+    <string name="msg_matchFace">Match Face to outline</string>
+    <string name="msg_move_camera">Move camera away from your face\nMatch Face to outline</string>
+    <string name="msg_onNoFace">Please position your face inside the outline</string>
+    <string name="msg_tryAgain">Please try again</string>
+    <string name="processing">Processing…</string>
+    <style name="AnnouncementCenterText" parent="AnnouncementText">
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="AnnouncementText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+    <style name="CamTheme.Full.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+</resources>
